@@ -1,0 +1,74 @@
+/* #afeced #f5acfa #c1c2e0 #faf4a7*/
+.job_role{
+
+    
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    background: #6fb3b8 ;
+    border-radius: 0px 0px 17.1429px 17.1429px;
+    margin-left: 250pt;
+    margin-right: 250pt;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    font-size: 200%;
+    color: black;
+    
+}
+
+.skills_needed{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 10pt;
+    color:black;
+}
+
+.skill_item_h{
+    font-size: 30px;
+    align-items: left;
+}
+.skill_item{
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    background: #388087;
+    border-radius: 10px;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    font-size: 150%;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    color: white;
+
+}
+.skill_item:hover{
+    background-color:#6fb3b8;
+    box-shadow: 0px 0px 4px #388087;
+    
+}
+.applicant_info{
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    color: black;
+    background: #c2edce;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    font-size: 150%;
+    text-decoration: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.applicant_info:hover{
+    box-shadow: 0px 0px 2px #c2edce;
+    color: black;
+}
+
+

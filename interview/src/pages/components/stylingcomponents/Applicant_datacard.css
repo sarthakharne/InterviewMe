@@ -1,0 +1,68 @@
+
+.applicant_card{ 
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin: 5%;
+    margin-top: 2%;
+    padding: 1%;
+    padding-top: 0%;
+   
+}
+.applicant_name{
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    position: relative;
+    background: #6fb3b8;
+    border-radius: 0px 0px 17.1429px 17.1429px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.30);
+    margin-left: 200pt;
+    margin-right: 200pt;
+ 
+    font-size: 50px;
+    
+}
+
+
+.flex_applicant_element{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 30px;
+
+   
+    padding: 1%;
+    align-items: center;
+    
+}
+.applicant_element{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 200%;
+    
+    background-color: #388087;
+    color:white;
+    align-items: center;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    background: #388087;
+    border-radius: 10px;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    
+}
+.applicant_element:hover{
+    background-color: #6fb3b8;
+}

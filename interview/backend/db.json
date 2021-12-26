@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Sarthak Harne",
+    "gender": "Male",
+    "age": 19,
+    "higher_secondary_school": "Essar International School",
+    "undergrad_degree": "BTech",
+    "undergrad_college": "International Institute of Information Technology Bangalore",
+    "postgrad_degree": "MTech",
+    "postgrad_college": "International Institute of Information Technology Bangalore"
+  },
+  {
+    "name": "Shreyansh Rai",
+    "gender": "Male",
+    "age": 18,
+    "higher_secondary_school": "Smt. Sulochanadevi Singhania School",
+    "undergrad_degree": "BTech",
+    "undergrad_college": "International Institute of Information Technology Bangalore",
+    "postgrad_degree": "MTech",
+    "postgrad_college": "International Institute of Information Technology Bangalore"
+  },
+  {
+    "name": "Vatsal Dhama",
+    "gender": "Male",
+    "age": 19,
+    "higher_secondary_school": "Rawat Public School",
+    "undergrad_degree": "BTech",
+    "undergrad_college": "International Institute of Information Technology Bangalore",
+    "postgrad_degree": "MTech",
+    "postgrad_college": "International Institute of Information Technology Bangalore"
+  },
+  {
+    "name": "Kaushik Mishra",
+    "gender": "Male",
+    "age": 19,
+    "higher_secondary_school": "Delhi Public School",
+    "undergrad_degree": "BTech",
+    "undergrad_college": "International Institute of Information Technology Bangalore",
+    "postgrad_degree": "MTech",
+    "postgrad_college": "International Institute of Information Technology Bangalore"
+  },
+  {
+    "name": "Khushi Vyas",
+    "gender": "Female",
+    "age": 25,
+    "higher_secondary_school": "Fountainhead School",
+    "undergrad_degree": "BCom",
+    "undergrad_college": "Narsee Monjee Institute of Management Studies",
+    "postgrad_degree": "MCom",
+    "postgrad_college": "Narsee Monjee Institute of Management Studies",
+    "work_experience": "2 years work experience with Tata Steel"
+  },
+  {
+    "name": "Saket Gurjar",
+    "gender": "Homosexual",
+    "age": 19,
+    "higher_secondary_school": "VJ Public School Kolhapur",
+    "undergrad_degree": "BTech",
+    "undergrad_college": "International Institute of Information Technology Bangalore",
+    "postgrad_degree": "MTech",
+    "postgrad_college": "International Institute of Information Technology Bangalore"
+  },
+  {
+    "name": "Pratima Prasad",
+    "gender": "Homosexual",
+    "age": 20,
+    "higher_secondary_school": "DK Public School Mumbai",
+    "undergrad_degree": "BTech",
+    "undergrad_college": "National Institute of Technology Rourkela"
+  }
+]

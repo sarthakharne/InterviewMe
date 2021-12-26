@@ -1,0 +1,184 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+/* #388087 #6fb3b8 #badfe7 #c2edce #f6f6f2*/
+body{
+    background: #6FB3B8;
+    border-radius: 10px;
+}
+#screen 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 90vh;
+}
+.application{
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+video{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.message
+{
+    padding: 10px;
+    background-color: rgb(182, 216, 245);
+    border-width: 2px;
+    border-radius: 5px;
+    margin : 10px 10px
+}
+.chathead{
+    padding: 2%;
+    background-color: #c2edce;
+    border-radius: 20px;
+    margin: 4%;
+}
+.chatarea{
+    flex: 0.25;
+    display: flex;
+    flex-direction: column;
+    padding:6px;
+    overflow-y: auto;
+    padding-bottom: 0;
+    border-radius: 30px 0px 0px 30px;
+}
+.chats{
+    padding-bottom: 2px;
+    height:20px;
+}
+.messagearea{
+    transform: translateY(-20px);
+    padding: 0;
+    height:20px
+}
+.vidarea{
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(112, 112, 112);
+}
+
+.vids{
+    flex-grow: 0.8;
+    background: #6FB3B8;
+}
+
+@media screen and (max-width: 500px) {
+    video{
+        width: 230px;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+        box-sizing: border-box;
+        padding: 10px;
+        
+    }
+    .chatarea{
+        flex: 0.4;
+    }
+    .vidarea{
+        flex:0.6;
+    }
+}
+
+.meetcontrols
+{
+    background-color:#6FB3B8;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.meetcontrols i 
+{
+    display: block;
+    border-radius:2px ;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.meetcontrols i:hover{
+    background-color: rgba(68, 110, 202, 0.452);
+    border-radius: 5px;
+}
+
+.leave
+{
+    color: coral;
+}
+
+.mute
+{
+    color: #c2edce;
+}
+
+.webcam
+{
+    color: rgb(173, 173, 173);
+}
+
+.chathead
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.chatarea
+{
+    background-color: #388087;
+    
+}
+.re{
+    color:coral;
+}
+.chats
+{
+    display: flex;
+    flex-direction: column;
+}
+.chatwindow {
+    flex-grow: 1;
+    overflow-y: auto;
+    /* jugaad */
+    min-height: 88vh;
+}
+
+.messages{
+    color: white;
+    list-style: none;
+}
+
+.messagearea {
+    padding: 22px 12px;
+    display: flex;
+}
+
+.messagearea input {
+    flex-grow: 1;
+    background-color: #c2edce;
+    padding: 2%;
+    border: none;
+    color: #F5F5F5;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    font-size: 100%;
+
+    border-style: none;
+}
